@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Been Alone</string>
+    <string name="been_alone">Been alone for</string>
+    <string name="number">%d</string>
+    <string name="oneYear">%d year</string>
+    <string name="moreYear">%d years</string>
+    <string name="oneMonth">%d month</string>
+    <string name="moreMonth">%d months</string>
+    <string name="oneDay">%d day</string>
+    <string name="moreDay">%d days</string>
+    <string name="viewMode">Tap to change view mode</string>
+    <string name="quote_enable">quotes enabled</string>
+    <string name="quote_unable">quotes disabled</string>
+    <string name="string_utilities">Utilities</string>
+    <string name="string_profile">Profile</string>
+    <string name="string_diary">Diary</string>
+    <string name="string_more">Accessories</string>
+    <string name="string_abtus">About us</string>
+    <string name="string_inform">App information</string>
+</resources>

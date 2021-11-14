@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/string_utilities">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item android:title="@string/string_profile"
+                    android:icon="@drawable/ic_launcher_foreground1"
+                    />
+                <item
+                    android:title="@string/string_diary"
+                    android:icon="@drawable/ic_action_name" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/string_more">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="@string/string_inform"
+                    android:icon="@android:drawable/ic_menu_info_details" />
+                <item
+                    android:title="@string/string_abtus"
+                    android:icon="@android:drawable/ic_menu_my_calendar" />
+
+            </group>
+            </menu>
+    </item>
+</menu>
