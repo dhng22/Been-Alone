@@ -1,35 +1,25 @@
 package com.example.beenalone;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-
 import android.app.DatePickerDialog;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-
 import android.util.Log;
 import android.view.View;
-
-
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.CheckBox;
 import android.widget.EditText;
-
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
-
-
 import com.google.android.material.navigation.NavigationView;
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.Period;
