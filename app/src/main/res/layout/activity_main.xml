@@ -123,31 +123,28 @@
             android:id="@+id/txtLocked"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/txtLockedMarStart"
-            android:layout_marginTop="@dimen/txtLockedMarTop"
             android:alpha="0"
             android:clickable="false"
             android:fontFamily="@font/font_lightmontserrat"
             android:text="locked!"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
-            app:layout_constraintStart_toEndOf="@+id/txtBeenFor"
-            app:layout_constraintTop_toBottomOf="@+id/edtDatePick" />
+            app:layout_constraintStart_toStartOf="@+id/btnLock"
+            app:layout_constraintTop_toBottomOf="@+id/btnLock" />
 
         <TextView
             android:id="@+id/txtUnlocked"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/txtLockedMarTop"
-            android:layout_marginTop="@dimen/txtLockedMarTop"
             android:alpha="0"
             android:clickable="false"
             android:fontFamily="@font/font_lightmontserrat"
             android:text="unlocked!"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
-            app:layout_constraintStart_toEndOf="@+id/txtBeenFor"
-            app:layout_constraintTop_toBottomOf="@+id/edtDatePick" />
+            app:layout_constraintEnd_toEndOf="@+id/edtDatePick"
+            app:layout_constraintStart_toStartOf="@+id/btnLock"
+            app:layout_constraintTop_toBottomOf="@+id/btnLock" />
 
         <TextView
             android:id="@+id/txtQuote"
