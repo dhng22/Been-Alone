@@ -20,8 +20,8 @@
         android:startOffset="250"
         />
     <translate
-        android:fromYDelta="0"
-        android:toYDelta="-170"
+        android:fromYDelta="100%"
+        android:toYDelta="-10%"
         android:duration="900"
         />
     <alpha

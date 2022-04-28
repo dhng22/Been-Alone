@@ -2,9 +2,7 @@
 
 <layer-list xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-
-        >
+    <item>
         <shape
             android:shape="rectangle"
             >
@@ -13,7 +11,7 @@
                 android:height="0dp"
                 />
             <corners android:radius="20dp" />
-0
+
         </shape>
     </item>
     <item

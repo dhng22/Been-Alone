@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     CheckBox btnLock, cbQuote;
     SharedPreferences.Editor editor;
     View.OnClickListener clickChangeMode;
-    int timeLong;
+    int timeLong, screenHeight, screenWidth;
     EditText edtDatePick;
     LocalDate chosenDate;
     DateTimeFormatter format;
@@ -301,7 +301,7 @@ public class MainActivity extends AppCompatActivity {
         anim.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
-                view.animate().translationY(202).scaleX(1.25f).scaleY(1.25f).setDuration(700).start();
+                view.animate().translationY(screenHeight/11.9f).scaleX(1.25f).scaleY(1.25f).setDuration(700).start();
                 txtHeader.animate().alpha(0).setDuration(200).start();
             }
 
@@ -310,7 +310,7 @@ public class MainActivity extends AppCompatActivity {
                 changeModeCheck();
 
                 btnLock.setEnabled(true);
-                btnLock.animate().translationY(198).setDuration(700).start();
+                btnLock.animate().translationY(screenHeight/12f).setDuration(700).start();
                 btnLock.animate().alpha(1).setDuration(200).start();
                 changeLock();
 
@@ -451,6 +451,8 @@ public class MainActivity extends AppCompatActivity {
             layoutDrawer.closeDrawers();
             return true;
         });
+        screenHeight = getResources().getDisplayMetrics().heightPixels;
+        screenWidth = getResources().getDisplayMetrics().widthPixels;
     }
 
     private class GetQuote extends AsyncTask<Void, Void, String> {

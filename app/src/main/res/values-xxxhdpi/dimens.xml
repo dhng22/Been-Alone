@@ -1,0 +1,17 @@
+<resources>
+	<dimen name="txtHeaderMarTop">105dp</dimen>
+	<dimen name="edtTimePickMarTop">5dp</dimen>
+	<dimen name="edtTimePickMarStartEnd">80dp</dimen>
+	<dimen name="txtBeenForMarTop">132.5dp</dimen>
+	<dimen name="txtNumberMarTop">12.5dp</dimen>
+	<dimen name="txtDayMarTop">6.2dp</dimen>
+	<dimen name="txtReminderMarTop">15dp</dimen>
+	<dimen name="btnLockHeight">36.2dp</dimen>
+	<dimen name="btnLockMarStart">325dp</dimen>
+	<dimen name="txtLockedMarStart">60dp</dimen>
+	<dimen name="txtLockedMarTop">50dp</dimen>
+	<dimen name="txtQuoteMarTop">160dp</dimen>
+	<dimen name="txtQuoteEnableTranY">-8.8dp</dimen>
+	<dimen name="imgViewHeight">75dp</dimen>
+	<dimen name="btnMenuMarEnd">290dp</dimen>
+</resources>
